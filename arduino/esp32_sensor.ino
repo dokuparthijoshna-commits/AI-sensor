@@ -6,8 +6,7 @@
 const char* ssid = "REPLACE_WITH_YOUR_SSID";
 const char* password = "REPLACE_WITH_YOUR_PASSWORD";
 
-// Replace with your laptop's IP address and the Flask server port
-const char* serverURL = "http://10.45.67.132:5000/data";
+const char* serverURL = "https://ai-sensor.onrender.com";
 
 // DHT11 setup
 #define DHTPIN 4

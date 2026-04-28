@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceLine } from "recharts";
 
 // ── Config ───────────────────────────────────────────────────────────────────
-const SERVER = "http://10.45.67.132:5000";  // Your laptop IP - change if needed
+const SERVER = "https://ai-sensor.onrender.com";  // Your laptop IP - change if needed
 
 // ── Simulation fallback (used when server is offline) ────────────────────────
 function generateFake(forceAnomaly = false) {
